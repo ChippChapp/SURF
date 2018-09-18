@@ -6,8 +6,8 @@ from g import functions as fn
 
 def test_output_units():
     model_a_out, model_b_out = fn.create_model_output()
-    assert isinstance(model_a_out, float)
-    assert isinstance(model_b_out, float)
+    assert isinstance(model_a_out, float), "output model a not a float"
+    assert isinstance(model_b_out, float), "output model b not a float"
 
 def test_input_is_output():
     model_a_out, model_b_out = fn.create_model_output()
