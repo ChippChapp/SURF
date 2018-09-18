@@ -5,7 +5,7 @@ python:
 
 # command to install dependencies
 install:
-  - pip install -r /requirements.txt
+  - pip install -r ./g/requirements.txt
 
 # command to run tests
-script: python /setup.py test
+script: python ./g/setup.py test
