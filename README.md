@@ -1,7 +1,9 @@
 
-# GLOFRIM X
+# SURF stuff
 
-cookiecutterbased glofrim version
+cookiecutter based template
+
+[![Build Status](https://travis-ci.com/ChippChapp/SURF.svg?branch=master)](https://travis-ci.com/ChippChapp/SURF)
 
 Project Setup
 *************
